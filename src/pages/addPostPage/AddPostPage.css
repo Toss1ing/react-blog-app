@@ -1,0 +1,30 @@
+.add-post-page {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.add-post-card {
+    padding: 16px;
+}
+
+.add-post-card .add-post-title {
+    margin-bottom: 24px;
+}
+
+.add-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.add-post-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+@media (min-width: 600px) {
+    .add-post-card {
+        padding: 32px;
+    }
+}

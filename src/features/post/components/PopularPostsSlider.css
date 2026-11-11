@@ -1,0 +1,23 @@
+.popular-posts {
+    margin-top: 32px;
+}
+
+.popular-posts-text {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.popular-posts-statistics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.popular-posts-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}

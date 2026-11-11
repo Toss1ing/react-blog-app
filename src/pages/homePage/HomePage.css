@@ -1,0 +1,40 @@
+.home-page {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;    
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.home-sort {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.home-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.home-error {
+    margin-top: 24px;
+}
+
+.home-end-message {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.home-sentinel {
+    height: 1px;
+}
