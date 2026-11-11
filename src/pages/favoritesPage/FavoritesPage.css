@@ -1,0 +1,29 @@
+.favorites-page {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.favorites-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.favorites-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.favorites-pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.favorites-pagination .favorites-page-button {
+    min-width: 40px;
+}

@@ -1,0 +1,29 @@
+.post-card-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.post-card-text {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.post-card-statistics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.post-card-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.post-card-error {
+    margin-top: 16px;
+}
